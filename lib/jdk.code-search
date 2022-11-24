@@ -1,0 +1,19 @@
+# Query: jdk
+# ContextLines: 1
+
+5 results - 3 files
+
+android/gradlew:
+  67      if [ -x "$JAVA_HOME/jre/sh/java" ] ; then
+  68:         # IBM's JDK on AIX uses strange locations for the executables
+  69          JAVACMD="$JAVA_HOME/jre/sh/java"
+
+android/qr_code_android.iml:
+  23      </content>
+  24:     <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
+  25      <orderEntry type="sourceFolder" forTests="false" />
+
+android/app/build.gradle:
+  71  dependencies {
+  72:     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+  73  }
